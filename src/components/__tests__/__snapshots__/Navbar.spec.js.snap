@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<div
+  id="nav"
+>
+  <img
+    alt="Vue logo"
+    src="../assets/nomelette-logo.png"
+  />
+   
+  <div
+    id="nav-links"
+  >
+    <router-link-stub
+      event="click"
+      tag="a"
+      to="/"
+    >
+      Home
+    </router-link-stub>
+     |
+    
+    <router-link-stub
+      event="click"
+      tag="a"
+      to="/about"
+    >
+      About
+    </router-link-stub>
+     |
+    
+    <router-link-stub
+      event="click"
+      tag="a"
+      to="/books"
+    >
+      Books
+    </router-link-stub>
+     |
+    
+    <router-link-stub
+      event="click"
+      tag="a"
+      to="/categories"
+    >
+      Categories
+    </router-link-stub>
+  </div>
+</div>
+`;

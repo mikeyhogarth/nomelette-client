@@ -1,29 +1,41 @@
-# nomelette-client
+# Nomelette Client
 
 ## Project setup
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile and hot-reload for development
+
 ```
-npm run serve
+npm start
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
-### Run your unit tests
+### Run unit tests
+
 ```
-npm run test:unit
+npm test
+```
+
+### Run unit tests in watch mode
+
+```
+npm run test:watch
 ```
 
 ### Lints and fixes files
+
 ```
 npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).

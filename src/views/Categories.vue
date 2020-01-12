@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is the categories page</h1>
+    <p>This is the categories page</p>
   </div>
 </template>
