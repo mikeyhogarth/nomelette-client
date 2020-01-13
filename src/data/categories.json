@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Soups",
+    "slug": "soups"
+  },
+  {
+    "name": "Salads",
+    "slug": "salads"
+  },
+  {
+    "name": "Fish and Seafood",
+    "slug": "fish-and-seafood"
+  },
+  {
+    "name": "Curries",
+    "slug": "curries"
+  },
+  {
+    "name": "Casseroles and Stews",
+    "slug": "casseroles-and-stews"
+  },
+  {
+    "name": "Pies",
+    "slug": "pies"
+  },
+  {
+    "name": "Tarts and Flans",
+    "slug": "tarts-and-flans"
+  },
+  {
+    "name": "Crumbles and Puddings",
+    "slug": "crumbles-and-puddings"
+  },
+  {
+    "name": "Trifles and Sponges",
+    "slug": "trifles-and-sponges"
+  },
+  {
+    "name": "Snacks and Nibbles",
+    "slug": "snacks-and-nibbles"
+  },
+  {
+    "name": "Weird!",
+    "slug": "weird"
+  },
+  {
+    "name": "Cakes and Biscuits",
+    "slug": "cakes-and-biscuits"
+  },
+  {
+    "name": "Cheesecakes",
+    "slug": "cheesecakes"
+  },
+  {
+    "name": "Xmas",
+    "slug": "xmas",
+    "category_type_id": 2
+  },
+  {
+    "name": "Buffets and Picnics",
+    "slug": "buffets-and-picnics"
+  },
+  {
+    "name": "Jams and Chutneys",
+    "slug": "jams-and-chutneys"
+  },
+  {
+    "name": "Pasta",
+    "slug": "pasta"
+  },
+  {
+    "name": "Mince Pies",
+    "slug": "mince-pies"
+  }
+]

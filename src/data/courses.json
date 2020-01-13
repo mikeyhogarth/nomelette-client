@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Starters",
+    "slug": "starters"
+  },
+  {
+    "name": "Main Courses",
+    "slug": "main-courses"
+  },
+  {
+    "name": "Puddings",
+    "slug": "puddings"
+  }
+]

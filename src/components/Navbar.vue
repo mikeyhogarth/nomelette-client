@@ -5,7 +5,7 @@
       <router-link to="/">Home</router-link>&nbsp;|
       <router-link to="/about">About</router-link>&nbsp;|
       <router-link to="/books">Books</router-link>&nbsp;|
-      <router-link to="/categories">Categories</router-link>
+      <router-link to="/browse">Browse</router-link>
     </div>
   </div>
 </template>

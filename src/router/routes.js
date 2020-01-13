@@ -22,9 +22,9 @@ export default [
     component: () => import("../views/Book.vue")
   },
   {
-    path: "/categories",
-    name: "categories",
-    component: () => import("../views/Categories.vue")
+    path: "/browse",
+    name: "browse",
+    component: () => import("../views/Browse.vue")
   },
   {
     path: "/tagged-with",
