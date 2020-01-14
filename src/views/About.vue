@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <p>This is the about page</p>
-  </div>
+  <div v-html="content" class="about" />
 </template>
+
+<script>
+import content from "@/content/About.md";
+
+export default {
+  data: () => ({
+    content
+  })
+};
+</script>

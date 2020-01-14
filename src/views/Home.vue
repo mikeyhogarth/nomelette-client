@@ -1,5 +1,13 @@
 <template>
-  <div class="home">
-    <p>Welcome to Nomelette</p>
-  </div>
+  <div v-html="intro" class="home" />
 </template>
+
+<script>
+import intro from "@/content/HomeIntro.md";
+
+export default {
+  data: () => ({
+    intro
+  })
+};
+</script>
