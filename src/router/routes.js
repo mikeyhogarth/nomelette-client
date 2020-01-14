@@ -27,7 +27,7 @@ export default [
     component: () => import("../views/Browse.vue")
   },
   {
-    path: "/tagged-with",
+    path: "/tagged-with/:tag",
     name: "tagged-with",
     component: () => import("../views/Tagging.vue")
   }

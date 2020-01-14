@@ -2,7 +2,11 @@
   <div>
     <h2>{{ title }}</h2>
     <ul>
-      <li v-bind:key="tagging.slug" v-for="tagging in taggings">{{ tagging.name }}</li>
+      <li v-bind:key="tagging.slug" v-for="tagging in taggings">
+        <router-link v-bind:to="`/tagged-with/${tagging.slug}`">
+          {{ tagging.name }}
+        </router-link>
+      </li>
     </ul>
   </div>
 </template>
