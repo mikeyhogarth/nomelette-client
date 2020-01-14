@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaggingList renders correctly 1`] = `
+<div>
+  <h2>
+    Seasons
+  </h2>
+   
+  <ul>
+    <li>
+      <router-link-stub
+        event="click"
+        tag="a"
+        to="/tagged-with/summer"
+      >
+        
+        Summer
+      
+      </router-link-stub>
+    </li>
+    <li>
+      <router-link-stub
+        event="click"
+        tag="a"
+        to="/tagged-with/autumn"
+      >
+        
+        Autumn
+      
+      </router-link-stub>
+    </li>
+    <li>
+      <router-link-stub
+        event="click"
+        tag="a"
+        to="/tagged-with/winter"
+      >
+        
+        Winter
+      
+      </router-link-stub>
+    </li>
+    <li>
+      <router-link-stub
+        event="click"
+        tag="a"
+        to="/tagged-with/spring"
+      >
+        
+        Spring
+      
+      </router-link-stub>
+    </li>
+  </ul>
+</div>
+`;

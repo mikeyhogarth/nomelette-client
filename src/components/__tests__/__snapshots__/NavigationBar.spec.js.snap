@@ -42,9 +42,9 @@ exports[`Navbar renders correctly 1`] = `
     <router-link-stub
       event="click"
       tag="a"
-      to="/categories"
+      to="/browse"
     >
-      Categories
+      Browse
     </router-link-stub>
   </div>
 </div>
