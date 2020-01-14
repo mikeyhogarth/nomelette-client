@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { getAllTaggings } from "@/services/taggings.service";
+import { getAllTaggings } from "@/services/NomeletteService";
 import TaggingList from "@/components/TaggingList.vue";
 
 export default {

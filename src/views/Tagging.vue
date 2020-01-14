@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { getRecipesForTagging } from "@/services/recipes.service";
+import { getRecipesForTagging } from "@/services/NomeletteService";
 
 export default {
   data: () => ({
