@@ -7,6 +7,11 @@ export default [
     component: Home
   },
   {
+    path: "/recipes/:recipe",
+    name: "recipes",
+    component: () => import("../views/Recipe.vue")
+  },
+  {
     path: "/about",
     name: "about",
     component: () => import("../views/About.vue")

@@ -3,7 +3,9 @@
     <h2>{{ $route.params.tag }}</h2>
     <ul>
       <li v-bind:key="recipe.pk" v-for="recipe in recipes">
-        {{ recipe.recipeName }}
+        <router-link v-bind:to="`/recipes/${recipe.recipeSlug}`">
+          {{ recipe.recipeName }}
+        </router-link>
       </li>
     </ul>
   </div>
