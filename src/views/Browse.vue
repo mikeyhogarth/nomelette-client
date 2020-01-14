@@ -1,11 +1,11 @@
 <template>
   <div class="about">
     <h2>Seasons</h2>
-    <TaggingList v-bind:taggings="taggings.seasons" />
+    <tagging-list v-bind:taggings="taggings.seasons" />
     <h2>Courses</h2>
-    <TaggingList v-bind:taggings="taggings.courses" />
+    <tagging-list v-bind:taggings="taggings.courses" />
     <h2>Categories</h2>
-    <TaggingList v-bind:taggings="taggings.categories" />
+    <tagging-list v-bind:taggings="taggings.categories" />
   </div>
 </template>
 
@@ -15,7 +15,7 @@ import TaggingList from "@/components/TaggingList.vue";
 
 export default {
   components: {
-    TaggingList
+    "tagging-list": TaggingList
   },
   data: () => ({
     taggings: {}

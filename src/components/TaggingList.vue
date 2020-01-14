@@ -13,6 +13,13 @@
 
 <script>
 export default {
-  props: ["title", "taggings"]
+  props: {
+    title: {
+      type: String
+    },
+    taggings: {
+      type: Array
+    }
+  }
 };
 </script>
