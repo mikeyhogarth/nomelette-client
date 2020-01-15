@@ -6,7 +6,7 @@ exports[`Navbar renders correctly 1`] = `
 >
   <img
     alt="Vue logo"
-    src="../assets/nomelette-logo.png"
+    src="../assets/images/nomelette-logo.png"
   />
    
   <div

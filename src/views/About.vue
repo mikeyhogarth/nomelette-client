@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import content from "@/content/About.md";
+import content from "@/assets/md-content/About.md";
 
 export default {
   data: () => ({

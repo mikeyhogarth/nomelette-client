@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import content from "@/content/Books.md";
+import content from "@/assets/md-content/Books.md";
 
 export default {
   data: () => ({

@@ -1,8 +1,4 @@
-Sheila compiled many of her recipes into books, which are listed below.
-
-module.exports = [
-{
-id: 1,
+Sheila compiled many of her recipes into several books, which are listed below.
 
 # Cooking For Friends Can Be Fun
 

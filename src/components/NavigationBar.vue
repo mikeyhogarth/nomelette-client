@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <img alt="Vue logo" src="../assets/nomelette-logo.png" />
+    <img alt="Vue logo" src="../assets/images/nomelette-logo.png" />
     <div id="nav-links">
       <router-link to="/">Home</router-link>&nbsp;|
       <router-link to="/about">About</router-link>&nbsp;|

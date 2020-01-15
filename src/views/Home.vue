@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import intro from "@/content/HomeIntro.md";
+import intro from "@/assets/md-content/HomeIntro.md";
 
 export default {
   data: () => ({
