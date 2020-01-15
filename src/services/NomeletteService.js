@@ -5,8 +5,18 @@ import courses from "@/data/courses.json";
 import categories from "@/data/categories.json";
 
 /**
+ * retrieve a specific recipe
+ * @param {string} tagging
+ */
+export function getRecipe(recipeSlug) {
+  return axios
+    .get(`${config.api.endpoint}/recipes/${recipeSlug}`)
+    .then(r => r.data);
+}
+
+/**
  * retrieves all recipes for a given tagging
- * @param {strig} tagging
+ * @param {string} tagging
  */
 export function getRecipesForTagging(tagging) {
   return axios
