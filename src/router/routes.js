@@ -22,7 +22,7 @@ export default [
     component: () => import("../views/Books.vue")
   },
   {
-    path: "/book",
+    path: "/books/:book",
     name: "book",
     component: () => import("../views/Book.vue")
   },
