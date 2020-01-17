@@ -1,3 +1,1 @@
-# Welcome to Nomelette
-
-Get your pinny on! Experience over 40 years of classic family recipes created by Cumbria's renowned home cook Sheila Hogarth. Nomelette is full of traditional recipes from warming casseroles to delicious puddings.
+Experience over 40 years of classic family recipes created by Cumbria's renowned home cook Sheila Hogarth. Nomelette is full of traditional recipes from warming casseroles to delicious puddings.

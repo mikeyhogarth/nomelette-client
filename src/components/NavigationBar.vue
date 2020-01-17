@@ -1,27 +1,43 @@
 <template>
-  <div id="nav">
-    <img alt="Vue logo" src="../assets/images/nomelette-logo.png" />
-    <div id="nav-links">
-      <router-link to="/">Home</router-link>&nbsp;|
-      <router-link to="/about">About</router-link>&nbsp;|
-      <router-link to="/books">Books</router-link>&nbsp;|
-      <router-link to="/browse">Browse</router-link>
-    </div>
-  </div>
+  <b-navbar type="is-primary">
+    <template slot="brand">
+      <b-navbar-item v-if="notHome" tag="router-link" :to="{ path: '/' }">
+        <h1 id="navbar-brand">nomelette</h1>
+      </b-navbar-item>
+    </template>
+    <template slot="end">
+      <b-navbar-item tag="router-link" :to="{ path: '/' }">
+        Home
+      </b-navbar-item>
+      <b-navbar-item tag="router-link" :to="{ path: '/about' }">
+        About
+      </b-navbar-item>
+      <b-navbar-item tag="router-link" :to="{ path: '/books' }">
+        Books
+      </b-navbar-item>
+      <b-navbar-item tag="router-link" :to="{ path: '/browse' }">
+        Browse
+      </b-navbar-item>
+    </template>
+  </b-navbar>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="less">
-#nav {
-  padding: 30px;
-  background-color: #00d2d1;
-  color: #fff;
-  a {
-    font-weight: bold;
-    color: #fff;
-    &.router-link-exact-active {
-      color: #ff5722;
+<script>
+export default {
+  computed: {
+    notHome() {
+      return this.$route.path !== "/";
     }
   }
+};
+</script>
+
+<style scoped lang="scss">
+#navbar-brand {
+  font-size: 2em;
+  font-family: "Leckerli One", cursive;
+}
+a {
+  font-weight: bold;
 }
 </style>

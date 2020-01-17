@@ -19,11 +19,32 @@ export default {
 };
 </script>
 
-<style lang="less">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-}
+<style lang="scss">
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Set your colors
+$primary: #00d2d1;
+$primary-invert: findColorInvert($primary);
+$accent: #4099ff;
+$accent-invert: findColorInvert($accent);
+
+$colors: (
+  "primary": (
+    $primary,
+    $primary-invert
+  ),
+  "accent": (
+    $accent,
+    $accent-invert
+  )
+);
+
+// Other
+$navbar-height: 4rem;
+$navbar-burger-color: "black";
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
 </style>

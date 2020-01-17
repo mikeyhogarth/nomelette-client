@@ -1,51 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Navbar renders correctly 1`] = `
-<div
-  id="nav"
+<b-navbar
+  type="is-primary"
 >
-  <img
-    alt="Vue logo"
-    src="../assets/images/nomelette-logo.png"
-  />
+  <template>
+    <b-navbar-item
+      tag="router-link"
+      to="[object Object]"
+    >
+      <img
+        alt="Vue logo"
+        src="../assets/images/nomelette-logo.png"
+      />
+    </b-navbar-item>
+  </template>
    
-  <div
-    id="nav-links"
-  >
-    <router-link-stub
-      event="click"
-      tag="a"
-      to="/"
+  <template>
+    <b-navbar-item
+      tag="router-link"
+      to="[object Object]"
     >
+      
       Home
-    </router-link-stub>
-     |
     
-    <router-link-stub
-      event="click"
-      tag="a"
-      to="/about"
+    </b-navbar-item>
+     
+    <b-navbar-item
+      tag="router-link"
+      to="[object Object]"
     >
+      
       About
-    </router-link-stub>
-     |
     
-    <router-link-stub
-      event="click"
-      tag="a"
-      to="/books"
+    </b-navbar-item>
+     
+    <b-navbar-item
+      tag="router-link"
+      to="[object Object]"
     >
+      
       Books
-    </router-link-stub>
-     |
     
-    <router-link-stub
-      event="click"
-      tag="a"
-      to="/browse"
+    </b-navbar-item>
+     
+    <b-navbar-item
+      tag="router-link"
+      to="[object Object]"
     >
+      
       Browse
-    </router-link-stub>
-  </div>
-</div>
+    
+    </b-navbar-item>
+  </template>
+</b-navbar>
 `;

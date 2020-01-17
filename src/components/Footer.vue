@@ -9,7 +9,7 @@
 #footer {
   padding: 2em;
   margin-top: 5em;
-  background-color: #00d2d1;
+  background-color: ;
   color: #fff;
 }
 </style>
