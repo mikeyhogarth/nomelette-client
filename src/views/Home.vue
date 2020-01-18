@@ -14,8 +14,7 @@
                 tag="router-link"
                 to="/browse"
                 type="is-link"
-                >Browse Recipes</b-button
-              >
+              >Browse Recipes</b-button>
               <b-button
                 rounded
                 outlined
@@ -23,8 +22,7 @@
                 tag="router-link"
                 to="/about"
                 type="is-link"
-                >What is Nomelette?</b-button
-              >
+              >What is Nomelette?</b-button>
             </div>
           </div>
         </div>
@@ -32,6 +30,7 @@
     </section>
     <section class="section">
       <div class="container content">
+        <h2>Get your pinny on.</h2>
         <p>
           Experience over 40 years of classic family recipes created by
           Cumbria's renowned home cook Sheila Hogarth. Nomelette is full of
@@ -43,6 +42,10 @@
 </template>
 
 <style lang="scss" scoped>
+.subtitle {
+  font-size: 1.5em;
+  text-shadow: 1px 1px #000;
+}
 .hero {
   background-image: url("../assets/images/unsplash/neven-krcmarek-0TH1H1rq_eY-unsplash.jpg");
   background-color: darkslategrey;
@@ -50,7 +53,7 @@
 }
 #hero-title {
   font-size: 4rem;
-  text-shadow: 4px 4px #000;
+  text-shadow: 3px 3px #000;
   font-family: "Leckerli One", cursive;
 }
 </style>

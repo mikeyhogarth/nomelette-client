@@ -2,14 +2,14 @@
   <div class="content">
     <page-header title="Browse." subtitle="Time to get inspired" />
 
-    <section class="section">
+    <section class="section tagging-section">
       <div class="container">
         <h2 class="title is-2">Seasons</h2>
         <tagging-list v-bind:taggings="taggings.seasons" />
       </div>
     </section>
 
-    <section class="section">
+    <section class="section tagging-section">
       <div class="container">
         <h2 class="title is-2">Courses</h2>
         <tagging-list v-bind:taggings="taggings.courses" />
@@ -41,3 +41,10 @@ export default {
   }
 };
 </script>
+
+
+<style lang="scss">
+.tagging-section {
+  padding-bottom: 0;
+}
+</style>
