@@ -1,7 +1,12 @@
 <template>
   <footer class="footer">
     <div class="content has-text-centered">
-      <p><strong>Nomelette</strong> {{ new Date().getFullYear() }}</p>
+      <p>
+        <strong>Nomelette</strong> {{ new Date().getFullYear() }} ::
+        <b-icon pack="fas" icon="heart" size="is-small" /> to
+        <a href="https://unsplash.com/@nevenkrcmarek">Neven Krcmarek</a> for
+        sharing his photography on Unsplash.
+      </p>
     </div>
   </footer>
 </template>
