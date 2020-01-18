@@ -11,9 +11,18 @@
                 style="margin-right: 1em"
                 rounded
                 size="is-primary is-medium"
+                tag="router-link"
+                to="/browse"
+                type="is-link"
                 >Browse Recipes</b-button
               >
-              <b-button rounded outlined size="is-primary is-medium"
+              <b-button
+                rounded
+                outlined
+                size="is-primary is-medium"
+                tag="router-link"
+                to="/about"
+                type="is-link"
                 >What is Nomelette?</b-button
               >
             </div>

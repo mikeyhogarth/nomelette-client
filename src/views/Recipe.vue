@@ -3,10 +3,11 @@
     <page-header :title="recipe.recipeName" />
     <section class="section">
       <div class="container">
+        <cookie-loader :isLoading="isLoading" />
+
         <blockquote v-if="recipe.description">
           <div v-html="recipe.description" class="size-4" />
         </blockquote>
-        <cookie-loader :isLoading="isLoading" />
 
         <dl>
           <dt>Preparation time:</dt>
@@ -14,10 +15,13 @@
           <dt>Cooking Time:</dt>
           <dd>{{ recipe.cookingTime }}</dd>
         </dl>
+
         <h3>Ingredients</h3>
         <div v-html="parsedIngredients" />
+
         <h3>Method</h3>
         <div v-html="parsedMethod" />
+
         <div class="footnote" v-html="recipe.footnote" />
       </div>
     </section>

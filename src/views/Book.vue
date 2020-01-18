@@ -1,5 +1,12 @@
 <template>
-  <div class="about">
-    <p>This is a book page</p>
+  <div class="content">
+    <page-header title="This is a book page" />
+
+    <section class="section">
+      <div class="container">
+        <p>Don't look! This part isn't quite done yet!</p>
+        <hat-spacer />
+      </div>
+    </section>
   </div>
 </template>

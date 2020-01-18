@@ -27,6 +27,9 @@
           join Sheila's demonstrations which have become an established part of
           fundraising for the hospice Sheila, we thank you very much indeed
         </blockquote>
+        <router-link to="/books/cooking-for-friends-can-be-fun"
+          >View recipes from this book</router-link
+        >
       </div>
     </section>
 
@@ -48,8 +51,26 @@
           Procceds from the sale of Festive Fare were in aid of the Inglewood
           Infant School fund.
         </p>
+        <router-link to="/books/festive-fare"
+          >View recipes from this book</router-link
+        >
       </div>
     </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="title is-2">More Christmas Recipes</h2>
+
+        <p>
+          This book didn't come with a descrpition but is a collection of
+          festive recipes.
+        </p>
+        <router-link to="/books/more-christmas-recipes"
+          >View recipes from this book</router-link
+        >
+      </div>
+    </section>
+
     <hat-spacer />
   </div>
 </template>
