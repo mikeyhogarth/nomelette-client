@@ -5,7 +5,7 @@
     <section class="section">
       <div class="container">
         <p>Don't look! This part isn't quite done yet!</p>
-        <hat-spacer />
+        <nomelette-spacer />
       </div>
     </section>
   </div>

@@ -1,9 +1,6 @@
 <template>
   <div class="content">
-    <page-header
-      title="Books."
-      subtitle="Sheila compiled many of her recipes into books"
-    />
+    <page-header title="Books." subtitle="Sheila compiled many of her recipes into books" />
 
     <section class="section">
       <div class="container">
@@ -27,9 +24,7 @@
           join Sheila's demonstrations which have become an established part of
           fundraising for the hospice Sheila, we thank you very much indeed
         </blockquote>
-        <router-link to="/books/cooking-for-friends-can-be-fun"
-          >View recipes from this book</router-link
-        >
+        <router-link to="/books/cooking-for-friends-can-be-fun">View recipes from this book</router-link>
       </div>
     </section>
 
@@ -51,9 +46,7 @@
           Procceds from the sale of Festive Fare were in aid of the Inglewood
           Infant School fund.
         </p>
-        <router-link to="/books/festive-fare"
-          >View recipes from this book</router-link
-        >
+        <router-link to="/books/festive-fare">View recipes from this book</router-link>
       </div>
     </section>
 
@@ -65,12 +58,10 @@
           This book didn't come with a descrpition but is a collection of
           festive recipes.
         </p>
-        <router-link to="/books/more-christmas-recipes"
-          >View recipes from this book</router-link
-        >
+        <router-link to="/books/more-christmas-recipes">View recipes from this book</router-link>
       </div>
     </section>
 
-    <hat-spacer />
+    <nomelette-spacer />
   </div>
 </template>

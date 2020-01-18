@@ -60,6 +60,6 @@
         </p>
       </div>
     </section>
-    <hat-spacer />
+    <nomelette-spacer />
   </div>
 </template>

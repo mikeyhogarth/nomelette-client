@@ -3,7 +3,7 @@
     <page-header :title="recipe.recipeName" />
     <section class="section">
       <div class="container">
-        <cookie-loader :isLoading="isLoading" />
+        <nomelette-loader :isLoading="isLoading" />
 
         <blockquote v-if="recipe.description">
           <div v-html="recipe.description" class="size-4" />
@@ -34,10 +34,12 @@ import { delineify } from "@/util";
 
 export default {
   data: () => ({
-    recipe: {}
+    recipe: {},
+    isLoading: true
   }),
   async mounted() {
     this.recipe = await getRecipe(this.$route.params.recipe);
+    this.isLoading = false;
   },
   computed: {
     // a computed getter

@@ -5,18 +5,18 @@ import App from "./App.vue";
 import router from "./router";
 import Buefy from "buefy";
 //import "./registerServiceWorker";
-import HatSpacer from "@/components/HatSpacer";
 import PageHeader from "@/components/PageHeader";
-import CookieLoader from "@/components/CookieLoader";
+import NomeletteSpacer from "@/components/NomeletteSpacer";
+import NomeletteLoader from "@/components/NomeletteLoader";
 
 Vue.use(Buefy);
 
 Vue.config.productionTip = false;
 
 // Global components
-Vue.component("hat-spacer", HatSpacer);
 Vue.component("page-header", PageHeader);
-Vue.component("cookie-loader", CookieLoader);
+Vue.component("nomelette-spacer", NomeletteSpacer);
+Vue.component("nomelette-loader", NomeletteLoader);
 
 // Initialise Vue
 new Vue({

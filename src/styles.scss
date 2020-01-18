@@ -1,28 +1,18 @@
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
 
-// Set your colors
+// variable overrides
 $primary: #00d2d1;
 $primary-invert: findColorInvert($primary);
-$accent: #4099ff;
-$accent-invert: findColorInvert($accent);
-
 $family-primary: "Lato", sans-serif;
 
+// colors
 $colors: (
   "primary": (
     $primary,
     $primary-invert
-  ),
-  "accent": (
-    $accent,
-    $accent-invert
   )
 );
-
-// Other
-$navbar-height: 4rem;
-$navbar-burger-color: "black";
 
 // Import Bulma and Buefy styles
 @import "~bulma";

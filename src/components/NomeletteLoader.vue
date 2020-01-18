@@ -1,0 +1,14 @@
+<template>
+  <b-loading :is-full-page="false" :active.sync="isLoading"></b-loading>
+</template>
+
+<script>
+export default {
+  props: {
+    isLoading: {
+      type: Boolean,
+      required: true
+    }
+  }
+};
+</script>

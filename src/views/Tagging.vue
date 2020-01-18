@@ -4,13 +4,11 @@
 
     <section class="section">
       <div class="container">
-        <cookie-loader :isLoading="isLoading" />
+        <nomelette-loader :isLoading="isLoading" />
 
         <ul>
           <li v-bind:key="recipe.pk" v-for="recipe in recipes">
-            <router-link v-bind:to="`/recipes/${recipe.recipeSlug}`">
-              {{ recipe.recipeName }}
-            </router-link>
+            <router-link v-bind:to="`/recipes/${recipe.recipeSlug}`">{{ recipe.recipeName }}</router-link>
           </li>
         </ul>
       </div>
