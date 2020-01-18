@@ -1,7 +1,7 @@
 <template>
   <b-navbar type="is-primary">
     <template slot="brand">
-      <b-navbar-item v-if="notHome" tag="router-link" :to="{ path: '/' }">
+      <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <h1 id="navbar-brand">nomelette</h1>
       </b-navbar-item>
     </template>
@@ -34,7 +34,7 @@ export default {
 
 <style scoped lang="scss">
 #navbar-brand {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Leckerli One", cursive;
 }
 a {

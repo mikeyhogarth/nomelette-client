@@ -1,6 +1,8 @@
 <template>
-  <footer id="footer">
-    <p>Nomelette is under construction</p>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p><strong>Nomelette</strong> {{ new Date().getFullYear() }}</p>
+    </div>
   </footer>
 </template>
 

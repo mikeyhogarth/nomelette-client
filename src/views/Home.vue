@@ -1,26 +1,29 @@
 <template>
   <div>
-    <section class="hero is-small is-primary">
+    <section class="hero is-medium is-primary">
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 id="hero-title">nomelette</h1>
           <h2 class="subtitle">
-            Get your pinny on.
+            The recipes of Sheila Hogarth
           </h2>
+          <div class="columns">
+            <div class="column has-text-centered">
+              <b-button
+                style="margin-right: 1em"
+                rounded
+                size="is-primary is-medium"
+                >Browse Recipes</b-button
+              >
+              <b-button rounded outlined size="is-primary is-medium"
+                >What is Nomelette?</b-button
+              >
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="section has-text-centered">
-      <b-button rounded size="is-primary is-medium"
-        >Browse By Category</b-button
-      >
-      <b-button rounded size="is-primary is-medium">Browse By Book</b-button>
-      <br />
-      <b-button rounded outlined size="is-primary is-medium"
-        >What is Nomelette?</b-button
-      >
-    </section>
-    <section class="section has-text-centered">
+    <section class="section">
       <div v-html="intro" class="home" />
     </section>
   </div>
@@ -36,9 +39,13 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+.hero {
+  background-image: url("../assets/images/unsplash/neven-krcmarek-0TH1H1rq_eY-unsplash.jpg");
+  background-size: cover;
+}
 #hero-title {
-  font-size: 6em;
+  font-size: 4rem;
   font-family: "Leckerli One", cursive;
 }
 </style>
