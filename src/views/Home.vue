@@ -46,6 +46,7 @@ export default {
 }
 #hero-title {
   font-size: 4rem;
+  text-shadow: 4px 4px #000;
   font-family: "Leckerli One", cursive;
 }
 </style>
