@@ -1,20 +1,26 @@
 <template>
-  <div>
-    <h2>{{ recipe.recipeName }}</h2>
-    <p>
-      from the book
-      <span v-html="recipe.book" />
-    </p>
-    <p>
-      Preparation time: {{ recipe.preparationTime }}, cooking time
-      {{ recipe.cookingTime }}
-    </p>
-    <div v-html="recipe.description" />
-    <h3>Ingredients</h3>
-    <div v-html="parsedIngredients" />
-    <h3>Method</h3>
-    <div v-html="parsedMethod" />
-    <div class="footnote" v-html="recipe.footnote" />
+  <div class="content">
+    <page-header :title="recipe.recipeName" />
+    <section class="section">
+      <div class="container">
+        <blockquote>
+          <div v-html="recipe.description" class="size-4" />
+        </blockquote>
+        <cookie-loader :isLoading="isLoading" />
+
+        <dl>
+          <dt>Preparation time:</dt>
+          <dd>{{ recipe.preparationTime }}</dd>
+          <dt>Cooking Time:</dt>
+          <dd>{{ recipe.cookingTime }}</dd>
+        </dl>
+        <h3>Ingredients</h3>
+        <div v-html="parsedIngredients" />
+        <h3>Method</h3>
+        <div v-html="parsedMethod" />
+        <div class="footnote" v-html="recipe.footnote" />
+      </div>
+    </section>
   </div>
 </template>
 
