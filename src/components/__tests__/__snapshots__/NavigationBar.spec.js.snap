@@ -1,57 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Navbar renders correctly 1`] = `
-<b-navbar
+<b-navbar-stub
+  closeonclick="true"
+  mobileburger="true"
   type="is-primary"
 >
   <template>
-    <b-navbar-item
+    <b-navbar-item-stub
       tag="router-link"
       to="[object Object]"
     >
-      <img
-        alt="Vue logo"
-        src="../assets/images/nomelette-logo.png"
-      />
-    </b-navbar-item>
+      <h1
+        id="navbar-brand"
+      >
+        nomelette
+      </h1>
+    </b-navbar-item-stub>
   </template>
    
   <template>
-    <b-navbar-item
+    <b-navbar-item-stub
       tag="router-link"
       to="[object Object]"
     >
       
       Home
     
-    </b-navbar-item>
+    </b-navbar-item-stub>
      
-    <b-navbar-item
+    <b-navbar-item-stub
       tag="router-link"
       to="[object Object]"
     >
       
       About
     
-    </b-navbar-item>
+    </b-navbar-item-stub>
      
-    <b-navbar-item
+    <b-navbar-item-stub
       tag="router-link"
       to="[object Object]"
     >
       
       Books
     
-    </b-navbar-item>
+    </b-navbar-item-stub>
      
-    <b-navbar-item
+    <b-navbar-item-stub
       tag="router-link"
       to="[object Object]"
     >
       
       Browse
     
-    </b-navbar-item>
+    </b-navbar-item-stub>
   </template>
-</b-navbar>
+</b-navbar-stub>
 `;
