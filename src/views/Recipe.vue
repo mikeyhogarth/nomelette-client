@@ -10,17 +10,21 @@
         </blockquote>
 
         <dl>
-          <dt>Preparation time:</dt>
-          <dd>{{ recipe.preparationTime }}</dd>
-          <dt>Cooking Time:</dt>
-          <dd>{{ recipe.cookingTime }}</dd>
+          <dt v-if="recipe.preparationTime">Preparation time:</dt>
+          <dd v-if="recipe.preparationTime">{{ recipe.preparationTime }}</dd>
+          <dt v-if="recipe.cookingTime">Cooking Time:</dt>
+          <dd v-if="recipe.cookingTime">{{ recipe.cookingTime }}</dd>
         </dl>
 
         <h3>Ingredients</h3>
-        <div v-html="parsedIngredients" />
+        <div v-html="parsedIngredients" class="ingredients" />
+
+        <nomelette-spacer />
 
         <h3>Method</h3>
         <div v-html="parsedMethod" />
+
+        <nomelette-spacer />
 
         <div class="footnote" v-html="recipe.footnote" />
       </div>
@@ -30,11 +34,13 @@
 
 <script>
 import { getRecipe } from "@/services/NomeletteService";
-import { delineify } from "@/util";
+import { parseIngredients, parseMethod } from "@/util";
 
 export default {
   data: () => ({
-    recipe: {},
+    recipe: {
+      recipeName: "..."
+    },
     isLoading: true
   }),
   async mounted() {
@@ -44,11 +50,17 @@ export default {
   computed: {
     // a computed getter
     parsedIngredients: function() {
-      return delineify(this.recipe.ingredients);
+      return parseIngredients(this.recipe.ingredients);
     },
     parsedMethod: function() {
-      return delineify(this.recipe.method);
+      return parseMethod(this.recipe.method);
     }
   }
 };
 </script>
+
+<style scoped lang="scss">
+dt {
+  font-weight: bold;
+}
+</style>

@@ -1,4 +1,5 @@
 import Vue from "vue";
+import { compact } from "lodash";
 
 /**
  * this is a temporary measure until I figure out
@@ -9,7 +10,30 @@ import Vue from "vue";
  * all it does is replace the newlines with <br />
  * @param {string} value
  */
-export function delineify(value) {
-  if (!value) return "";
-  return value.replace(/(?:\r\n|\r|\n)/g, "<br />");
+function getLines(value) {
+  if (!value) return [];
+  return compact(value.split(/(?:\r\n|\r|\n)/g));
+}
+
+export function parseIngredients(ingredients) {
+  const lines = getLines(ingredients);
+  return `<ul style="list-style: none; margin-left: 0">${lines
+    .map(l => `<li>${parseIngredientLine(l)}</li>`)
+    .join("")}</ul>`;
+}
+
+function parseIngredientLine(ingredientLine) {
+  // section titles
+  if (ingredientLine.startsWith("--")) {
+    return `<h4 class="is-4" style='margin-top: 1em;'>
+      ${ingredientLine.replace("--", "")}
+    </h4>`;
+  }
+
+  return ingredientLine.replace(/\*/g, "");
+}
+
+export function parseMethod(method) {
+  const lines = getLines(method);
+  return `<ol>${lines.map(l => `<li>${l}</li>`).join("")}</ol>`;
 }

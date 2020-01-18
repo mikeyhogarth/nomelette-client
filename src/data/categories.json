@@ -48,10 +48,6 @@
     "slug": "cakes-and-biscuits"
   },
   {
-    "name": "Cheesecakes",
-    "slug": "cheesecakes"
-  },
-  {
     "name": "Xmas",
     "slug": "xmas",
     "category_type_id": 2
