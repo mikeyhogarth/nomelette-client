@@ -14,16 +14,10 @@
         </p>
 
         <p>
-          In her Later years, Sheila compiled some of these recipes into books.
-          She sold these to raise money for the Eden Valley Hospice in Carlisle,
-          who had cared for my grandfather in his final weeks.
-        </p>
-
-        <p>
-          Sadly, Sheila also passed away in 2000. Her archive of recipes (both
-          the compilations and hundreds of hand-written recipes) passed on to my
-          parents and I thought it might be a nice idea to put them on the
-          internet rather than letting them gather dust in the loft.
+          Sheila passed away in 2000. Her archive of recipes (both compilations
+          and hundreds of hand-written recipes) passed on to my parents and I
+          thought it might be a nice idea to put them on the internet rather
+          than letting them gather dust in the loft.
         </p>
       </div>
     </section>
@@ -36,14 +30,8 @@
           One thing that probably is worth mentioning - if you are into healthy
           eating then this site is probably not for you! That's not to say
           there's going to be nothing in here that would appeal, but bear in
-          mind the context in which these recipes were written and the spirit in
-          which this site is intended.
-        </p>
-
-        <p>
-          These are old school family recipes - stotgy and heart warming. Lots
-          of butter and cream etc. - to put it bluntly, if you eat this kind of
-          food every day you will probably get a bit poorly, so please don't!
+          mind that these are old school family recipes, which means lots of
+          butter and cream etc.
         </p>
 
         <p>
@@ -56,7 +44,7 @@
 
         <p>
           There are also a few comments which haven't aged very well, but
-          they've been left in doesn't really feel right to censor it :)
+          they've been left in too - doesn't really feel right to censor them :)
         </p>
       </div>
     </section>
