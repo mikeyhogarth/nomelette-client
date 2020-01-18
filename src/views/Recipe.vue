@@ -3,7 +3,7 @@
     <page-header :title="recipe.recipeName" />
     <section class="section">
       <div class="container">
-        <blockquote>
+        <blockquote v-if="recipe.description">
           <div v-html="recipe.description" class="size-4" />
         </blockquote>
         <cookie-loader :isLoading="isLoading" />
