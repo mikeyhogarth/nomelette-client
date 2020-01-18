@@ -59,8 +59,12 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 dt {
   font-weight: bold;
+}
+#ingredients-list {
+  list-style: none;
+  margin-left: 0;
 }
 </style>
