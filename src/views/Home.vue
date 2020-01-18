@@ -18,7 +18,7 @@
               <b-button
                 rounded
                 outlined
-                size="is-primary is-medium"
+                size="is-primary is-medium is-hidden-mobile"
                 tag="router-link"
                 to="/about"
                 type="is-link"

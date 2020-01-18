@@ -27,11 +27,11 @@
         <h2 class="title is-2">What kinds of recipes are featured?</h2>
 
         <p>
-          One thing that probably is worth mentioning - if you are into healthy
-          eating then this site is probably not for you! That's not to say
-          there's going to be nothing in here that would appeal, but bear in
-          mind that these are old school family recipes, which means lots of
-          butter and cream etc.
+          Traditional, old-school family recipes - not entirely unhealthy... but
+          mostly they are! They're being shared to keep them alive. These days
+          people are a little more concious about nutrition and calories, so
+          this is just a fair warning that this is
+          <em>not</em> what Nomelette is offering.
         </p>
 
         <p>
@@ -44,7 +44,8 @@
 
         <p>
           There are also a few comments which haven't aged very well, but
-          they've been left in too - doesn't really feel right to censor them :)
+          they've been left in too - nothing too bad but it doesn't really
+          feel right to censor them :)
         </p>
       </div>
     </section>
