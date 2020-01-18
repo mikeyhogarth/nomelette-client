@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <navigation-bar />
-    <main>
+    <main id="main">
       <router-view />
     </main>
     <the-footer />
@@ -20,3 +20,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+#main {
+  min-height: 15em;
+}
+</style>

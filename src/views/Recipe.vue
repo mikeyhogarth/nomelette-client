@@ -2,9 +2,8 @@
   <div class="content">
     <page-header :title="recipe.recipeName" />
     <section class="section">
-      <div class="container">
-        <nomelette-loader :isLoading="isLoading" />
-
+      <nomelette-loader :isLoading="isLoading" />
+      <div class="container" v-if="!isLoading">
         <blockquote v-if="recipe.description">
           <div v-html="recipe.description" class="size-4" />
         </blockquote>
