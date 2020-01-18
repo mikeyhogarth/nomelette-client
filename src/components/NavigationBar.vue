@@ -22,16 +22,6 @@
   </b-navbar>
 </template>
 
-<script>
-export default {
-  computed: {
-    notHome() {
-      return this.$route.path !== "/";
-    }
-  }
-};
-</script>
-
 <style scoped lang="scss">
 #navbar-brand {
   font-size: 1.5em;

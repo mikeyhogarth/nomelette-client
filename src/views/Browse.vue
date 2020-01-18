@@ -1,11 +1,27 @@
 <template>
-  <div class="about">
-    <h2>Seasons</h2>
-    <tagging-list v-bind:taggings="taggings.seasons" />
-    <h2>Courses</h2>
-    <tagging-list v-bind:taggings="taggings.courses" />
-    <h2>Categories</h2>
-    <tagging-list v-bind:taggings="taggings.categories" />
+  <div class="content">
+    <page-header title="Browse." subtitle="Time to get inspired" />
+
+    <section class="section">
+      <div class="container">
+        <h2 class="title is-2">Seasons</h2>
+        <tagging-list v-bind:taggings="taggings.seasons" />
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="title is-2">Courses</h2>
+        <tagging-list v-bind:taggings="taggings.courses" />
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="title is-2">Categories</h2>
+        <tagging-list v-bind:taggings="taggings.categories" />
+      </div>
+    </section>
   </div>
 </template>
 
