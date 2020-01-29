@@ -9,23 +9,24 @@
         </blockquote>
 
         <dl>
-          <dt v-if="recipe.preparationTime">Preparation time:</dt>
+          <dt v-if="recipe.preparationTime">
+            <b-icon pack="fas" icon="clock" size="is-small" />&nbsp;Preparation time:
+          </dt>
           <dd v-if="recipe.preparationTime">{{ recipe.preparationTime }}</dd>
-          <dt v-if="recipe.cookingTime">Cooking Time:</dt>
+          <dt v-if="recipe.cookingTime">
+            <b-icon pack="fas" icon="clock" size="is-small" />&nbsp;Cooking Time:
+          </dt>
           <dd v-if="recipe.cookingTime">{{ recipe.cookingTime }}</dd>
         </dl>
 
         <h3>Ingredients</h3>
         <div v-html="parsedIngredients" class="ingredients" />
-
-        <nomelette-spacer />
-
+        <hr />
         <h3>Method</h3>
         <div v-html="parsedMethod" />
-
-        <nomelette-spacer />
-
+        <hr />
         <div class="footnote" v-html="recipe.footnote" />
+        <nomelette-spacer />
       </div>
     </section>
   </div>
